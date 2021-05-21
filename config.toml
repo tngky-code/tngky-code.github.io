@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://tngky-code.github.io/tngky.github.io/"
 languageCode = "zh-cn"
 title = "tngky blog site"
 theme="console_theme"
