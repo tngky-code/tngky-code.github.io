@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "zh-cn"
+title = "tngky blog site"
+theme="console_theme"
+
