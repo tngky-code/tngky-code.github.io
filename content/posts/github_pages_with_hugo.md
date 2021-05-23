@@ -4,6 +4,9 @@ date: 2021-05-22T02:37:29+08:00
 summary: "Hugo 基本使用配置，发布到github pages"
 ---
 
+``` c#
+public int MyProperty { get; set; }
+``` 
 ## Summary
 
 Hugo 基本使用配置，发布到github pages
@@ -20,11 +23,15 @@ url:<https://github.com/gohugoio/hugo/releases>
 
 #### Command Collection
 
-##### 创建文章
+创建文章： hugo new posts/my-first-post.md
 
-命令：hugo new posts/my-first-post.md
+    目标路径：content/posts
 
-目标路径：content/posts
+创建网站： hugo new site mysite
+
+本地预览页面： hugo new site mysite
+
+将项目发布到docs目录： hugo -d docs
 
 #### Configuration
 
@@ -37,6 +44,12 @@ draft:文章是否为草稿 ，true 不显示
 ##### layouts
 
 从theme中拷贝.html,在其中修改会覆盖主题layouts
+
+##### 项目 config.toml
+
+配置网站主题： theme = "xhugo" 
+
+配置网站基本URL： baseURL = "https://tngky-code.github.io" 
 
 ### Hugo Foundation
 
