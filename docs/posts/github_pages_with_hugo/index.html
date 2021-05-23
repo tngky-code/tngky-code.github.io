@@ -52,7 +52,8 @@ May. 22, 2021
 
 
 <br/><br/>
-<h2 id="summary">Summary</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> MyProperty { <span style="color:#66d9ef">get</span>; <span style="color:#66d9ef">set</span>; }
+</code></pre></div><h2 id="summary">Summary</h2>
 <p>Hugo 基本使用配置，发布到github pages</p>
 <h3 id="hugo-foundation">Hugo Foundation</h3>
 <p>Hugo 基本使用配置</p>
@@ -60,15 +61,21 @@ May. 22, 2021
 <p>office doc:<a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
 <p>url:<a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a></p>
 <h4 id="command-collection">Command Collection</h4>
-<h5 id="创建文章">创建文章</h5>
-<p>命令：hugo new posts/my-first-post.md</p>
-<p>目标路径：content/posts</p>
+<p>创建文章： hugo new posts/my-first-post.md</p>
+<pre><code>目标路径：content/posts
+</code></pre>
+<p>创建网站： hugo new site mysite</p>
+<p>本地预览页面： hugo new site mysite</p>
+<p>将项目发布到docs目录： hugo -d docs</p>
 <h4 id="configuration">Configuration</h4>
 <h5 id="content-article">Content Article</h5>
 <p>ps:文章配置为--- ---中</p>
 <p>draft:文章是否为草稿 ，true 不显示</p>
 <h5 id="layouts">layouts</h5>
 <p>从theme中拷贝.html,在其中修改会覆盖主题layouts</p>
+<h5 id="项目-configtoml">项目 config.toml</h5>
+<p>配置网站主题： theme = &ldquo;xhugo&rdquo;</p>
+<p>配置网站基本URL： baseURL = &ldquo;<a href="https://tngky-code.github.io">https://tngky-code.github.io</a>&rdquo;</p>
 <h3 id="hugo-foundation-1">Hugo Foundation</h3>
 <p>1.创建github pages Repository(与通常的Repository相同)</p>
 <p>2.将Hugo生成静态网站文件 或 以hugo -d docs命令生成过的项目 传入创建的Repository</p>
