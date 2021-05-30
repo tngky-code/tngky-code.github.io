@@ -58,8 +58,12 @@ draft:文章是否为草稿 ，true 不显示
 2.将Hugo生成静态网站文件 或 以hugo -d docs命令生成过的项目 传入创建的Repository
 
 3.设置github pages:
+
     配置 url:
+
         https://github.com/<用户名>/<Repository名>/settings/pages
+
         Repository->settings->Pages/github pages
+        
     设置source选项指定分支(如果Repository不是静态文件,需要设置路径/docs)
     

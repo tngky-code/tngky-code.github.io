@@ -6,7 +6,16 @@
     <description>Recent content in Posts on tngky blog site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 22 May 2021 02:37:29 +0800</lastBuildDate><atom:link href="https://tngky-code.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 13:52:02 +0800</lastBuildDate><atom:link href="https://tngky-code.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity_vr</title>
+      <link>https://tngky-code.github.io/posts/unity_vr/</link>
+      <pubDate>Sun, 30 May 2021 13:52:02 +0800</pubDate>
+      
+      <guid>https://tngky-code.github.io/posts/unity_vr/</guid>
+      <description>Requirements  Unity Editor(minimum supported version 2019.4 LTS) Oculus companion app  Configuration Oculus  Download the Oculus companion app and set up user account. Go to Devices &amp;gt; Configure Rift &amp;gt; Full Setup. Follow the on-screen instructions to run the full setup. Follow the in-VR instructions to complete the generic device settings.  Unity Unity Hub  Open Unity Hub and click the Installs tab. Click the three dots next to the Unity 2019.</description>
+    </item>
+    
     <item>
       <title>github pages with hugo</title>
       <link>https://tngky-code.github.io/posts/github_pages_with_hugo/</link>
