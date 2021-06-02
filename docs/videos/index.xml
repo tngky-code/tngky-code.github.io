@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videos on tngky blog site</title>
+    <link>https://tngky-code.github.io/videos/</link>
+    <description>Recent content in Videos on tngky blog site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 22 May 2021 02:05:36 +0800</lastBuildDate><atom:link href="https://tngky-code.github.io/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Video Post</title>
+      <link>https://tngky-code.github.io/videos/my-first-post/</link>
+      <pubDate>Sat, 22 May 2021 02:05:36 +0800</pubDate>
+      
+      <guid>https://tngky-code.github.io/videos/my-first-post/</guid>
+      <description>aaaaaaaa</description>
+    </item>
+    
+  </channel>
+</rss>

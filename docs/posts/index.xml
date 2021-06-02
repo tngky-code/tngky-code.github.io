@@ -6,7 +6,30 @@
     <description>Recent content in Posts on tngky blog site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 May 2021 13:52:02 +0800</lastBuildDate><atom:link href="https://tngky-code.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 21:04:39 +0800</lastBuildDate><atom:link href="https://tngky-code.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity_ml_agents</title>
+      <link>https://tngky-code.github.io/posts/unity_ml_agents/</link>
+      <pubDate>Sun, 30 May 2021 21:04:39 +0800</pubDate>
+      
+      <guid>https://tngky-code.github.io/posts/unity_ml_agents/</guid>
+      <description>Installation vc2015:https://aka.ms/vs/16/release/vc_redist.x64.exe cuda:可选 gpu
+Install Python Python (recommend installing Python 3.6 or 3.7)
+If you are using Windows, please install the x86-64 version and not x86
+Configuration:
+创建虚拟环境: py -m venv venv 进入虚拟环境: venv\Scripts\activate Packages:  更新pip: py -m pip install &amp;ndash;upgrade pip 安装pytorch: pip install torch==1.8.1 -i http://pypi.douban.com/simple &amp;ndash;trusted-host pypi.douban.com 安装mlagents: pip install mlagents (如果出2020问题加参数 &amp;ndash;use-feature=2020-resolver )  </description>
+    </item>
+    
+    <item>
+      <title>Unity_tips</title>
+      <link>https://tngky-code.github.io/posts/unity_tips/</link>
+      <pubDate>Sun, 30 May 2021 15:02:53 +0800</pubDate>
+      
+      <guid>https://tngky-code.github.io/posts/unity_tips/</guid>
+      <description>Inspector:static = true
+确保这个物体在游戏场景中为静态的、不会移动的物体，进而在游戏的运行过程中让游戏有更加流畅的运行体验</description>
+    </item>
+    
     <item>
       <title>Unity_vr</title>
       <link>https://tngky-code.github.io/posts/unity_vr/</link>
